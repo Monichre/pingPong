@@ -10,36 +10,20 @@ $(document).ready(function() {
     var userInput = parseInt($('#number-input').val());
     console.log(userInput);
     var output = pingPong(userInput);
-
+    $('h2').hide(1000);
     $('li').remove();
     output.forEach(function (x){
-      $('#result').append("<li>" + x + "</li>");
+      $('.pong').append("<li>" + x + "</li>");
   
     });
-  
+
     $('.result-img').fadeIn(1000);
+    $('.result2-img').fadeIn(1000);
+    $('h2').fadeIn(1000);
+    $('h2').click(function(){
+      location.reload();
 
-    
-
-
-
-  
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    });
 
 
   // ****************************  BUSINESS *************** BUSINESS ***************************************** //
