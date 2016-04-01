@@ -51,8 +51,112 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      margin:0px;
+     
+
+     background-image: -webkit-gradient(
+     linear,
+     left top,
+     left bottom,
+     color-stop(0, #E1B498),
+     color-stop(1, #e91a28)
+);
+     background-image: -o-linear-gradient(bottom, #e91a28 100%, #E1B498 100%);
+     background-image: -moz-linear-gradient(bottom, #e91a28 100%, #E1B498 100%);
+     background-image: -webkit-linear-gradient(bottom, #e91a28 100%, #E1B498 100%);
+     background-image: -ms-linear-gradient(bottom, #e91a28 100%, #E1B498 100%);
+     background-image: linear-gradient(bottom, #e91a28 100%, #E1B498 100%);
+     
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(../dk_lemon_yellow_sun/lemonYellow.otf);
 }
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+
+header {
+
+}
+header img {
+     display: block;
+     margin: auto;
+     background-color: #e91a28;
+  
+ 
+}
+
+
+.container {
+     width: 100%;
+     height: 700px;
+}
+
+form {
+     width: 40%;
+     margin: auto;
+     height: 400px;
+     
+     background: url(../images/willferrel.png) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+h1 {
+     font-family: lemon;
+     text-align: center;
+     margin-top: 0px;
+}
+button{
+     margin: auto;
+     text-align: center;
+     margin-left: 40%;
+}
+input {
+     opacity: 0.7;
+
+}
+
+#result {
+     margin: auto;
+     padding: 20px;
+     width: 100%;
+}
+
+li {
+     float: left;
+     width: 50px;
+     list-style-type: none;
+     background-color: white;
+     border-radius: 50%;
+     height: 50px;
+     padding-top:10px;
+     text-align: center;
+     margin-left: 2px;
+     margin-right: 2px;
+     border: solid 0.5px black;
+     margin-top: 5px;
+
+}
+
+.result-img {
+     display: none;
+     float: left;
+     margin-bottom: 2%;
+     padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
