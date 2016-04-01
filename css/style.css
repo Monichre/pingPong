@@ -1,8 +1,8 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Ping Pong
+Client: Epicodus
+Author: Liam Ellis
+
 */
 
 
@@ -84,8 +84,6 @@ header img {
      display: block;
      margin: auto;
      background-color: #e91a28;
-  
- 
 }
 
 
@@ -105,11 +103,13 @@ form {
      -o-background-size: cover;
      background-size: cover;
 }
+
 h1 {
      font-family: lemon;
      text-align: center;
      margin-top: 0px;
 }
+
 button{
      margin: auto;
      text-align: center;
