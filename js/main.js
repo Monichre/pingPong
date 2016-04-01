@@ -33,7 +33,6 @@ $(document).ready(function() {
     for (var i = 0; i <= num; i++) {
       nums.push(i);
     } // have populated the nums array
-    console.log(nums);
 
     var nums = nums.map(function(x) {
       if (x === 0) {
